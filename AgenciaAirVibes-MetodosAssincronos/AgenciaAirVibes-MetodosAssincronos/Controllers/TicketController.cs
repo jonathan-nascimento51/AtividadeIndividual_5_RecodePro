@@ -7,7 +7,7 @@ namespace AgenciaAirVibes_MetodosAssincronos.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class TicketController : Controller
+    public class TicketController : ControllerBase
     {
 
         private readonly _DbContext db;
